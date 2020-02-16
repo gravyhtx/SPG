@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>S.P.G. v2.0</title>
-
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css" />
   </head>
@@ -17,26 +18,26 @@
       
       <header>
 
-      <div class="card2">
-      <div style="border: 10px; border-style: solid; border-color: lavenderblush; padding: 1em;">
+      <div class="card1">
       
         <p><div class="big">スーパーパスワード生成</div>
         <h2>// SUPER PASSWORD GENERATION //</h2></p>
-      </div>
+
       </div>
       </header>
 
     </br>
 
-      <div class="card">
+      <div class="card2">
         <div class="card-header">
 
           <h2>パスワードを作る <div class="small">(Generate Password)</div></h2>
         </div>
 
-
+     
         <div class="card-body">
           <textarea
+            style="font-size: 32px; overflow:scroll;"
             readonly
             id="password"
             placeholder="awaiting confirmation..."
@@ -45,6 +46,8 @@
         </div>
 
         <div class="card-footer">
+        </br>
+
           <button id="generate" class="btn">行こう!  // Let's go!</button>
         </div>
       </div>
@@ -53,11 +56,6 @@
     </div>
     </div>
 
-
-
-    <!-- <script>
-    alert("パスワード生成ツールへようこそ、ご主人様!  Click to continue...");
-    </script> -->
     <script src="script.js"></script>
   </body>
 </html>

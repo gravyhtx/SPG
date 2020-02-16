@@ -49,29 +49,33 @@ body {
 }
 
 header {
-  text-indent: 20px;
+  text-indent: 0px;
   text-align: center;
   color: hsl(208, 16%, 76%);
 }
 
 
-.card {
-  background-color: hsla(203, 64%, 91%, 0.85);
-  border: 10px solid rgb(49, 49, 49);
+.card2 {
+  background-color: hsla(203, 64%, 91%, 0.7);
+  border: 10px solid rgb(182, 245, 245);
+  border-radius: 0px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
-  padding: 30px 40px;
+  padding: 20px 40px;
 }
 
 /*  well, for the header though */
-.card2 {
+.card1 {
   background-color: hsla(202, 29%, 89%, 0.05);
   margin: 0 auto;
   max-width: 800px;
-
+  border: 10px;
+  border-style: solid;
+  border-color: lavenderblush;
+  padding: 1em;
 }
 
 .card-header::after {
@@ -108,7 +112,7 @@ header {
   border: none;
   background-color: rgba(46, 46, 46, 0.9);
   border: 5px solid rgb(128, 236, 195);
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
@@ -146,8 +150,8 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  border: 2px solid #c0c7cf;
+  border-radius: 25px;
   resize: none;
   overflow: hidden;
 }
@@ -161,11 +165,5 @@ button[disabled] {
 
   #password {
     font-size: 1rem;
-  }
-}
-
-@media (max-width: 500px) {
-  .btn {
-    font-size: 0.8rem;
   }
 }
