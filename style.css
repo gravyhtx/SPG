@@ -14,11 +14,10 @@ body,
 
 
 .wrapper {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
-  /* margin: 5px; */
 }
 
 
@@ -28,7 +27,6 @@ body {
   background-size: cover;
   background-color: #242424;
   background-attachment: fixed;
-  /* margin: 50px; */
 }
 
 textarea {
@@ -72,7 +70,6 @@ header {
   padding: 20px 40px;
 }
 
-/*  well, for the header though */
 .card1 {
   background-color: hsla(202, 29%, 89%, 0.05);
   margin: 0 auto;
@@ -114,7 +111,7 @@ header {
 }
 
 .btn {
-  border: none;
+  /* border: none; */
   background-color: rgba(46, 46, 46, 0.9);
   border: 5px solid rgb(128, 236, 195);
   border-radius: 20px;
@@ -161,7 +158,67 @@ button[disabled] {
   overflow: hidden;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 765px) {
+  .btn {
+    font-size: 16px;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+
+  textarea {
+    font-size: 16px;
+  }
+  
+  .big {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 0.95;
+    margin-top: 20px;
+  }
+  
+  .small {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .smaller {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0px;
+  }
+  
+  header {
+    text-indent: 0px;
+    text-align: center;
+    color: hsl(208, 16%, 76%);
+  }
+  
+  
+  .card2 {
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+  
+  .card1 {
+    font-size: 12px;
+  }
+
+  #password {
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  #gdc {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    padding-top: 20px;
+  }
+  
   .btn {
     font-size: 12px;
     margin: 16px 0px 0px 0px;
@@ -196,20 +253,13 @@ button[disabled] {
     color: hsl(208, 16%, 76%);
   }
   
-  
   .card2 {
-    background-color: hsla(203, 64%, 91%, 0.7);
-    border: 10px solid rgb(182, 245, 245);
-    border-radius: 0px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-    color: hsl(206, 17%, 28%);
     font-size: 12px;
     margin: 0 auto;
-    max-width: 800px;
+    /* max-width: 300px; */
     padding: 20px 40px;
   }
   
-  /*  well, for the header though */
   .card1 {
     font-size: 8px;
   }
@@ -220,6 +270,6 @@ button[disabled] {
   }
 
   #gdc {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
