@@ -13,16 +13,27 @@ body,
 }
 
 
+.wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin: 5px; */
+}
+
+
 body {
   font-family: "Poppins", "Open Sans", sans-serif;
   background-image: url("images/spgbkg.jpg");
   background-size: cover;
   background-color: #242424;
   background-attachment: fixed;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
-
+textarea {
+  font-size: 36px;
+}
 
 .big {
   font-weight: bold;
@@ -40,12 +51,6 @@ body {
   font-size: 14px;
   font-weight: 300;
   margin: 0px;
-}
-
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 header {
@@ -146,7 +151,7 @@ button[disabled] {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -156,14 +161,65 @@ button[disabled] {
   overflow: hidden;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 480px) {
   .btn {
-    font-size: 1rem;
+    font-size: 12px;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
   }
 
+  textarea {
+    font-size: 12px;
+  }
+  
+  .big {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0.95;
+    margin-top: 20px;
+  }
+  
+  .small {
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .smaller {
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0px;
+  }
+  
+  header {
+    text-indent: 0px;
+    text-align: center;
+    color: hsl(208, 16%, 76%);
+  }
+  
+  
+  .card2 {
+    background-color: hsla(203, 64%, 91%, 0.7);
+    border: 10px solid rgb(182, 245, 245);
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+    color: hsl(206, 17%, 28%);
+    font-size: 12px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px 40px;
+  }
+  
+  /*  well, for the header though */
+  .card1 {
+    font-size: 8px;
+  }
+
   #password {
-    font-size: 1rem;
+    font-size: 14px;
+    padding-bottom: 12px;
+  }
+
+  #gdc {
+    font-size: 12px;
   }
 }
