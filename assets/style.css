@@ -23,7 +23,7 @@ body,
 
 body {
   font-family: "Poppins", "Open Sans", sans-serif;
-  background-image: url("images/spgbkg.jpg");
+  background-image: url("img/spgbkg.jpg");
   background-size: cover;
   background-color: #242424;
   background-attachment: fixed;
@@ -61,7 +61,7 @@ header {
 .card2 {
   background-color: hsla(203, 64%, 91%, 0.7);
   border: 10px solid rgb(182, 245, 245);
-  border-radius: 0px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
   color: hsl(206, 17%, 28%);
   font-size: 18px;
@@ -75,6 +75,7 @@ header {
   margin: 0 auto;
   max-width: 800px;
   border: 10px;
+  border-radius: 10px;
   border-style: solid;
   border-color: lavenderblush;
   padding: 1em;
