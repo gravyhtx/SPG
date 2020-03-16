@@ -18,7 +18,3 @@ Arrays are set up for all possible options of each variable in which the charact
 The final result will give the password based on the user requirements.
 
 This process can be repeated as many times as user wishes by clicking "let's go" to generate a new secure password.
-
-
-
-NOTE: Console properly displays prompt responses, however randomization based on number of characters is incomplete. This program will not function as expected.
